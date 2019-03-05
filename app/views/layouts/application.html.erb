@@ -18,42 +18,95 @@
 	<!-- WEB FONTS : use %7C instead of | (pipe) -->
 	<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />-->
 	<link href="https://fonts.google.com/specimen/Roboto" rel="stylesheet" type="text/css" />
-	<!-- CORE CSS -->
-	<link href="assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
-
-	<!-- REVOLUTION SLIDER -->
-	<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
-	<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
-
-	<!-- THEME CSS -->
-	<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
-	<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
-
-	<!-- PAGE LEVEL SCRIPTS -->
-	<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
-	<link href="assets/css/color_scheme/yellow.css" rel="stylesheet" type="text/css" id="color_scheme" />
-
-	<link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
-<!-- JAVASCRIPT FILES -->
-	<script>var plugin_path = 'assets/plugins/';</script>
-	<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
-
-	<script src="assets/js/scripts.js"></script>
-
-
-	<!-- REVOLUTION SLIDER -->
-	<script src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
-	<script src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="assets/js/view/demo.revolution_slider.js"></script>
-
-	<!-- PAGELEVEL SCRIPTS -->
-	<script src="assets/js/contact.js"></script>
+	
 
 </head>
 
 <body>
 
-<header id="topNav">
+<div id="slidetop">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-4">
+					<h6><i class="icon-heart"></i> A MESSAGE FROM OUR PRESIDENT</h6>
+					<p>We have chosen to live by 3 core values: Integrity, Service, and Quality, and these words are more than a
+						poster hanging in our office; each week we share stories of how these core values are being lived out by our
+						team. I am very proud that we are a top TSSA elevator contractor in America, and that we were nominated for
+						“Best
+						Contractor in America”. I am most pleased, however, by the comments we continually receive from our satisfied
+						customers, as attested by our 4.9/5.0 Google Review Score and Comments. I hope you decide to give Elevator One a
+						try. I am sure you won’t be disappointed.”</p>
+				</div>
+
+				<div class="col-md-4">
+					<h6><i class="fa-facheck"></i> WHY US ?</h6>
+					<ul class="list-unstyled">
+						<li><a href="#"><i class="fa fa-angle-right"></i> Professional technicians.</a></li>
+						<li><a href="#"><i class="fa fa-angle-right"></i> We design, evaluate and justify technology solutions.</a></li>
+						<li><a href="#"><i class="fa fa-angle-right"></i> Largest market share throughout Central America.</a></li>
+						<li><a href="#"><i class="fa fa-angle-right"></i> Because of our superior service.</a></li>
+						<li><a href="#"><i class="fa fa-angle-right"></i> Every Rocket home elevator includes warranty.</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-4">
+					<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
+					<ul class="list-unstyled">
+						<li><b>Address:</b> Québec, QC G2J 0C4<br />Boulevard Lebourgneuf,</li>
+						<li><b>Phone:</b> (418) 580-7055</li>
+						<li><b>Email:</b> <a href="rocketeleveator@codeboxx.biz">rocketeleveator@codeboxx.biz</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+
+		<a class="slidetop-toggle" href="#">
+			<!-- toggle button --></a>
+
+	</div>
+	<!-- /SLIDE TOP -->
+
+
+
+
+	<!-- wrapper -->
+	<div id="wrapper">
+
+		<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.b-0 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent b-0"
+			-->
+		<div id="header" class="navbar-toggleable-md sticky header-md clearfix">
+
+			<!-- TOP NAV -->
+			<header id="topNav">
 				<div class="container">
 
 					<!-- Mobile Menu Button -->
@@ -61,25 +114,54 @@
 						<i class="fa fa-bars"></i>
 					</button>
 
+					<!-- BUTTONS -->
+					<ul class="float-right nav nav-pills nav-second-main">
+
+						<!-- SEARCH -->
+						<li class="search">
+							<a href="javascript:;">
+								<i class="fa fa-search"></i>
+							</a>
+							<div class="search-box">
+								<form action="page-search-result-1.html" method="get">
+									<div class="input-group">
+										<input type="text" name="src" placeholder="Search" class="form-control" />
+										<span class="input-group-btn">
+											<button class="btn btn-primary" type="submit">Search</button>
+										</span>
+									</div>
+								</form>
+							</div>
+						</li>
+						<!-- /SEARCH -->
+
+					</ul>
+					<!-- /BUTTONS -->
+
 					<!-- Logo -->
-					<a class="logo float-left scrollTo" href="#contact">
-						<img src="assets/image1/R2.png" alt="Logo Rocket elevators" />
+					<a class="logo float-left" href="index.html">
+						<%= image_tag("R2.png", :alt => "logo") %>
+					
 					</a>
 
-					<!--
-							Top Nav
-
+					<!-- 
+							Top Nav 
+							
 							AVAILABLE CLASSES:
 							submenu-dark = dark sub menu
 						-->
-					<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+					<div class="navbar-collapse collapse float-right nav-main-collapse">
 						<nav class="nav-main">
 
 							<!--
-									.nav-onepage
-									Required for onepage navigation links
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
 
-									Add .external for an external link!
+									<li>
+										<a href="#">HOME</a>
+									</li>
 								-->
 							<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
 								<li class="active">
@@ -90,43 +172,45 @@
 								</li>
 								<li>
 									<!-- SERVICES -->
-									<a href="#services">
+									<a href="index.html#services">
 										SERVICES
 									</a>
 								</li>
 								<li>
 									<!-- WORK -->
-									<a href="#work">
+									<a href="index.html#work">
 										PORTFOLIO
 									</a>
 								</li>
 								<li>
 									<!-- NEWS -->
-									<a href="#news">
+									<a href="index.html#news">
 										NEWS
 									</a>
 								</li>
 
 								<li>
 									<!-- CLIENTS -->
-									<a href="#clients">
+									<a href="index.html#clients">
 										CLIENTS
 									</a>
 								</li>
 
 								<li>
 									<!-- CONTACT -->
-									<a href="#contact">
+									<a href="index.html#contact">
 										CONTACT
 									</a>
 								</li>
 							</ul>
 
-						</nav>
-					</div>
 
-				</div>
+
+
 			</header>
+
+
+		</div>
 
  <%= yield %>
 

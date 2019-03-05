@@ -15,97 +15,16 @@
 	<!-- WEB FONTS : use %7C instead of | (pipe) -->
 	<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />-->
 	<link href="https://fonts.google.com/specimen/Roboto" rel="stylesheet" type="text/css" />
-	<!-- CORE CSS -->
-	<link href="assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
-
-	<!-- REVOLUTION SLIDER -->
-	<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
-	<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
-
-	<!-- THEME CSS -->
-	<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
-	<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
-
-	<!-- PAGE LEVEL SCRIPTS -->
-	<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
-	<link href="assets/css/color_scheme/yellow.css" rel="stylesheet" type="text/css" id="color_scheme" />
-
-	<!-- <link href="assets/css/custom.css" rel="stylesheet" type="text/css" /> -->
-
+	
 
 </head>
 
-<!--
-		AVAILABLE BODY CLASSES:
 
-		smoothscroll 			= create a browser smooth scroll
-		enable-animation		= enable WOW animations
-
-		bg-grey					= grey background
-		grain-grey				= grey grain background
-		grain-blue				= blue grain background
-		grain-green				= green grain background
-		grain-blue				= blue grain background
-		grain-orange			= orange grain background
-		grain-yellow			= yellow grain backgdround
-
-		boxed 					= boxed layout
-		pattern1 ... patern11	= pattern background
-		menu-vertical-hide		= hidden, open on click
-
-		BACKGROUND IMAGE [together with .boxed class]
-		data-background="assets/images/_/boxed_background/1.jpg"
-	-->
 
 <body class="smoothscroll enable-animation">
 
 	<!-- SLIDE TOP -->
-	<div id="slidetop">
-
-
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col-md-4">
-					<h6><i class="icon-heart"></i> A MESSAGE FROM OUR PRESIDENT</h6>
-					<p>We have chosen to live by 3 core values: Integrity, Service, and Quality, and these words are more than a
-						poster hanging in our office; each week we share stories of how these core values are being lived out by our
-						team. I am very proud that we are a top TSSA elevators contractor in America, and that we were nominated for
-						“Best
-						Contractor in the World”. I am most pleased, however, by the comments we continually receive from our satisfied
-						customers, as attested by our 4.9/5.0 Google Review Score and Comments. I hope you decide to give Elevators One a
-						try. I am sure you won’t be disappointed.”</p>
-				</div>
-
-				<div class="col-md-4">
-					<h6><i class="fa-facheck"></i> WHY US ?</h6>
-					<ul class="list-unstyled">
-						<li><a href="#"><i class="fa fa-angle-right"></i> Professional technicians.</a></li>
-						<li><a href="#"><i class="fa fa-angle-right"></i> We design, evaluate and justify technology solutions.</a></li>
-						<li><a href="#"><i class="fa fa-angle-right"></i> Largest market share throughout Central America.</a></li>
-						<li><a href="#"><i class="fa fa-angle-right"></i> Because of our superior service.</a></li>
-						<li><a href="#"><i class="fa fa-angle-right"></i> Every Rocket home elevators includes warranty.</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-4">
-					<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
-					<ul class="list-unstyled">
-						<li><b>Address:</b> Québec, QC G2J 0C4<br />Boulevard Lebourgneuf,</li>
-						<li><b>Phone:</b> (418) 580-7055</li>
-						<li><b>Email:</b> <a href="rocketeleveator@codeboxx.biz">rocketeleveator@codeboxx.biz</a></li>
-					</ul>
-				</div>
-
-			</div>
-
-		</div>
-
-		<a class="slidetop-toggle" href="#">
-			<!-- toggle button --></a>
-
-	</div>
+	<%#  %>
 	<!-- /SLIDE TOP -->
 
 
@@ -149,34 +68,6 @@
 		<!-- REVOLUTION SLIDER -->
 		<div class="slider fullwidthbanner-container roundedcorners clearfix">
 
-			<!--
-					Navigation Styles:
-
-						data-navigationStyle="" theme default navigation
-
-						data-navigationStyle="preview1"
-						data-navigationStyle="preview2"
-						data-navigationStyle="preview3"
-						data-navigationStyle="preview4"
-
-					Bottom Shadows
-						data-shadow="1"
-						data-shadow="2"
-						data-shadow="3"
-
-					Slider Height (do not use on fullscreen mode)
-						data-height="300"
-						data-height="350"
-						data-height="400"
-						data-height="450"
-						data-height="500"
-						data-height="550"
-						data-height="600"
-						data-height="650"
-						data-height="700"
-						data-height="750"
-						data-height="800"
-				-->
 			<div class="fullwidthbanner " data-height="600" data-shadow="0" data-navigationStyle="preview2">
 				<ul class="hide">
 
@@ -186,8 +77,8 @@
 					<li data-transition="parallaxtotop" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
 					 data-title="Committed to futur">
 						<!-- MAIN IMAGE -->
-						<img src="assets/image1/banner5.jpg" alt="cover image" data-bgposition="center top" data-bgfit="cover"
-						 data-bgrepeat="no-repeat">
+						
+						<%= image_tag("banner5.jpg", :alt => "cover image", :data => "center top", :data => "cover", :data =>"no-repeat") %>
 
 						<div class="overlay dark-4">
 							<!-- dark overlay [0 to 9 opacity] -->
@@ -229,8 +120,8 @@
 					<li data-transition="parallaxtobottom" data-slotamount="7" data-masterspeed="600" data-saveperformance="off"
 					 data-title="Residential Services">
 						<!-- MAIN IMAGE -->
-						<img src="assets/image1/slider6.jpg" alt="cover image" data-bgposition="center top" data-bgfit="cover"
-						 data-bgrepeat="no-repeat">
+						
+						 <%= image_tag("slider6.jpg", :alt => "cover image", :data => "center top", :data => "cover", :data =>"no-repeat") %>
 
 						<div class="overlay dark-4">
 							<!-- dark overlay [0 to 9 opacity] -->
@@ -266,8 +157,9 @@
 					<li data-transition="parallaxtobottom" data-slotamount="7" data-masterspeed="600" data-saveperformance="off"
 					 data-title=" Corporate Building Services">
 						<!-- MAIN IMAGE -->
-						<img src="assets/image1/slider2.jpeg" alt="cover image" data-bgposition="center top" data-bgfit="cover"
-						 data-bgrepeat="no-repeat">
+						
+						<%= image_tag("slider2.jpeg", :alt => "cover image", :data => "center top", :data => "cover", :data =>"no-repeat") %>
+
 
 						<div class="overlay dark-4">
 							<!-- dark overlay [0 to 9 opacity] -->
@@ -338,7 +230,7 @@
 
 							</div>
 
-							<img class="img-fluidservices" src="assets/image1/workicon.png" alt="awards" /><br>
+							<%= image_tag("workicon.png", :alt => "awards", :class => "img-fluidservices") %>
 
 
 							<p><em>Over the years we have won several awards and have participate in many incredible projectc please take
@@ -368,7 +260,8 @@
 
 							</div>
 
-							<img class="img-fluidservices" src="assets/image1/houseicon.png" alt="awards" /><br>
+							
+							<%= image_tag("houseicon.png", :alt => "awards", :class => "img-fluidservices") %>
 
 
 							<p><em>Choosing a Rocket Home Elevator is a more cost-effective compared to moving house and less expensive and
@@ -396,7 +289,9 @@
 
 							</div>
 
-							<img class="img-fluidservices" src="assets/image1/buildingicon.png" alt="awards" /><br>
+							
+							<%= image_tag("buildingicon.png", :alt => "awards", :class => "img-fluidservices") %>
+							
 
 
 							<p><em>Rocket Elevators adds value to the buildings of architects, owners and builders. Rocket Corporate
@@ -481,7 +376,7 @@
 
 				<div class="row mix-grid">
 
-					<div class="col-md-3 col-sm-3 mix development">
+					<div class="col-md-3 col-sm-3 mix development mix_all">
 						<!-- item -->
 
 						<div class="item-box">
@@ -503,7 +398,8 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/nobilis.jpg" width="600" height="399" alt="nobilis">
+								<%# <img class="img-fluid" src="assets/image1/nobilis.jpg" width="600" height="399" alt="nobilis"> %>
+								<%= image_tag("nobilis.jpg", :alt => "nobilis", :class => "img-fluid", :width =>"600", :height =>"399") %>
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -519,7 +415,7 @@
 					</div><!-- /item -->
 
 
-					<div class="col-md-3 col-sm-3 mix development">
+					<div class="col-md-3 col-sm-3 mix development mix_all">
 						<!-- item -->
 
 						<div class="item-box">
@@ -541,7 +437,8 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/forbes.jpg" width="600" height="399" alt="forbes">
+								<%# <img class="img-fluid" src="assets/image1/forbes.jpg" width="600" height="399" alt="forbes"> %>
+								<%= image_tag("forbes.jpg", :alt => "forbes", :class => "img-fluid", :width =>"600", :height =>"399") %>
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -556,7 +453,7 @@
 					</div><!-- /item -->
 
 
-					<div class="col-md-3 col-sm-3 mix development">
+					<div class="col-md-3 col-sm-3 mix development mix_all">
 						<!-- item -->
 
 						<div class="item-box">
@@ -578,7 +475,8 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/forbes1.png" width="600" height="399" alt="forbes">
+								<%# <img class="img-fluid" src="assets/image1/forbes1.png" width="600" height="399" alt="forbes"> %>
+								<%= image_tag("forbes1.png", :alt => "forbes", :class => "img-fluid", :width =>"600", :height =>"399") %>
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -593,7 +491,7 @@
 					</div><!-- /item -->
 
 
-					<div class="col-md-3 col-sm-3 mix development">
+					<div class="col-md-3 col-sm-3 mix development mix_all" >
 						<!-- item -->
 
 						<div class="item-box">
@@ -615,7 +513,9 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/elevator.jpg" width="600" height="399" alt="elevator">
+								<%# <img class="img-fluid" src="assets/image1/elevator.jpg" width="600" height="399" alt="elevator"> %>
+								<%= image_tag("elevator.jpg", :alt => "elevator", :class => "img-fluid", :width =>"600", :height =>"399") %>
+								
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -630,7 +530,7 @@
 					</div><!-- /item -->
 
 
-					<div class="col-md-3 col-sm-3 mix photography">
+					<div class="col-md-3 col-sm-3 mix photography mix_all" >
 						<!-- item -->
 
 						<div class="item-box">
@@ -652,7 +552,8 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/elevator1.jpg" width="600" height="399" alt="elevator">
+								<%# <img class="img-fluid" src="assets/image1/elevator1.jpg" width="600" height="399" alt="elevator"> %>
+								<%= image_tag("elevator1.jpg", :alt => "elevator", :class => "img-fluid", :width =>"600", :height =>"399") %>
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -667,7 +568,7 @@
 					</div><!-- /item -->
 
 
-					<div class="col-md-3 col-sm-3 mix photography">
+					<div class="col-md-3 col-sm-3 mix photography mix_all" >
 						<!-- item -->
 
 						<div class="item-box">
@@ -689,7 +590,8 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/elevator2.jpg" width="600" height="399" alt="elevator">
+								<%# <img class="img-fluid" src="assets/image1/elevator2.jpg" width="600" height="399" alt="elevator"> %>
+								<%= image_tag("elevator2.jpg", :alt => "elevator", :class => "img-fluid", :width =>"600", :height =>"399") %>
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -705,7 +607,7 @@
 					</div><!-- /item -->
 
 
-					<div class="col-md-3 col-sm-3 mix photography">
+					<div class="col-md-3 col-sm-3 mix photography mix_all">
 						<!-- item -->
 
 						<div class="item-box">
@@ -721,13 +623,16 @@
 
 										<!-- details -->
 										<a class="ico-rounded" href="assets/image1/elevator3.jpg">
+										
 
 										</a>
 
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/elevator3.jpg" width="600" height="399" alt="elevator">
+								<%# <img class="img-fluid" src="assets/image1/elevator3.jpg" width="600" height="399" alt="elevator"> %>
+								<%= image_tag("elevator3.jpg", :alt => "elevator", :class => "img-fluid", :width =>"600", :height =>"399") %>
+
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -743,7 +648,7 @@
 					</div><!-- /item -->
 
 
-					<div class="col-md-3 col-sm-3 mix photography">
+					<div class="col-md-3 col-sm-3 mix photography mix_all">
 						<!-- item -->
 
 						<div class="item-box">
@@ -765,7 +670,8 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/elevator4.jpg" width="600" height="399" alt="elevator">
+								<%# <img class="img-fluid" src="assets/image1/elevator4.jpg" width="600" height="399" alt="elevator"> %>
+								<%= image_tag("elevator4.jpg", :alt => "elevator", :class => "img-fluid", :width =>"600", :height =>"399") %>
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -781,7 +687,7 @@
 					</div><!-- /item -->
 
 
-					<div class="col-md-3 col-sm-3 mix design">
+					<div class="col-md-3 col-sm-3 mix design mix_all">
 						<!-- item -->
 
 						<div class="item-box">
@@ -803,7 +709,8 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/building1.jpg" width="600" height="399" alt="building">
+								<%# <img class="img-fluid" src="assets/image1/building1.jpg" width="600" height="399" alt="building"> %>
+								<%= image_tag("building1.jpg", :alt => "building", :class => "img-fluid", :width =>"600", :height =>"399") %>
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -819,7 +726,7 @@
 					</div><!-- /item -->
 
 
-					<div class="col-md-3 col-sm-3 mix design">
+					<div class="col-md-3 col-sm-3 mix design mix_all">
 						<!-- item -->
 
 						<div class="item-box">
@@ -841,7 +748,8 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/building2.jpg" width="600" height="399" alt="building">
+								<%# <img class="img-fluid" src="assets/image1/building2.jpg" width="600" height="399" alt="building"> %>
+								<%= image_tag("building2.jpg", :alt => "building", :class => "img-fluid", :width =>"600", :height =>"399") %>
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -857,7 +765,7 @@
 
 
 
-					<div class="col-md-3 col-sm-3 mix design">
+					<div class="col-md-3 col-sm-3 mix design mix_all">
 						<!-- item -->
 
 						<div class="item-box">
@@ -879,7 +787,8 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/building3.jpg" width="600" height="399" alt="building">
+								<%# <img class="img-fluid" src="assets/image1/building3.jpg" width="600" height="399" alt="building"> %>
+								<%= image_tag("building3.jpg", :alt => "building", :class => "img-fluid", :width =>"600", :height =>"399") %>
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -893,7 +802,7 @@
 					</div><!-- /item -->
 
 
-					<div class="col-md-3 col-sm-3 mix design">
+					<div class="col-md-3 col-sm-3 mix design mix_all" >
 						<!-- item -->
 
 						<div class="item-box">
@@ -915,7 +824,8 @@
 									</span>
 								</span>
 
-								<img class="img-fluid" src="assets/image1/building4.jpg" width="600" height="399" alt="building">
+								<%# <img class="img-fluid" src="assets/image1/building4.jpg" width="600" height="399" alt="building"> %>
+								<%= image_tag("building4.jpg", :alt => "building", :class => "img-fluid", :width =>"600", :height =>"399") %>
 							</figure>
 
 							<div class="col-xs-12 text-center">
@@ -1001,29 +911,11 @@
 					<h3>Recent News</h3>
 				</div>
 
-				<!--
-						controlls-over		= navigation buttons over the image
-						buttons-autohide 	= navigation buttons visible on mouse hover only
-
-						data-plugin-options:
-							"singleItem": true
-							"autoPlay": true (or ms. eg: 4000)
-							"navigation": true
-							"pagination": true
-							"items": "4"
-
-						owl-carousel item paddings
-							.owl-padding-0
-							.owl-padding-3
-							.owl-padding-6
-							.owl-padding-10
-							.owl-padding-15
-							.owl-padding-20
-					-->
 				<div class="owl-carousel owl-padding-10 buttons-autohide controlls-over" data-plugin-options='{"singleItem": false, "items":"4", "autoPlay": 4000, "navigation": true, "pagination": false}'>
 					<div class="img-hover">
 						<a target='New' href="https://www.nydailynews.com/new-york/ny-metro-elevators-study-hunter-college-20190123-story.html">
-							<img class="img-fluid" src="assets/image1/new1.jpg" alt="newimage">
+							<%# <img class="img-fluid" src="assets/image1/new1.jpg" alt="newimage"> %>
+							<%= image_tag("new1.jpg", :alt => "newimage", :class => "img-fluid") %>
 						</a>
 
 						<h4 class="text-left mt-20"><a target='New' href="https://www.nydailynews.com/new-york/ny-metro-elevators-study-hunter-college-20190123-story.html">NYC
@@ -1212,62 +1104,75 @@
 				<ul class="row clients-dotted list-inline">
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo1.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo1.png" alt="client" /> %>
+						<%= image_tag("logo1.png", :alt => "client", :class => "img-fluid5") %>
+						
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo2.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo2.png" alt="client" /> %>
+						<%= image_tag("logo2.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo3.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo3.png" alt="client" /> %>
+						<%= image_tag("logo3.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo4.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo4.png" alt="client" /> %>
+						<%= image_tag("logo4.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo5.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo5.png" alt="client" /> %>
+						<%= image_tag("logo5.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo6.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo6.png" alt="client" /> %>
+						<%= image_tag("logo6.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo7.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo7.png" alt="client" /> %>
+						<%= image_tag("logo7.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo8.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo8.png" alt="client" /> %>
+						<%= image_tag("logo8.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo9.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo9.png" alt="client" /> %>
+						<%= image_tag("logo9.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo10.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo10.png" alt="client" /> %>
+						<%= image_tag("logo10.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo11.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo11.png" alt="client" /> %>
+						<%= image_tag("logo11.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 					<li class="col-md-3 col-sm-3 col-6">
 
-						<img class="img-fluid5" src="assets/image1/logo12.png" alt="client" />
+						<%# <img class="img-fluid5" src="assets/image1/logo12.png" alt="client" /> %>
+						<%= image_tag("logo12.png", :alt => "client", :class => "img-fluid5") %>
 
 					</li>
 				</ul>
@@ -1485,37 +1390,7 @@
 	
 
 	</div>
-	<!-- /wrapper -->
-
-
-	<!-- SCROLL TO TOP -->
-	<a href="#" id="toTop"></a>
-
-
-	<!-- PRELOADER -->
-	<div id="preloader">
-		<div class="inner">
-			<span class="loader"></span>
-		</div>
-	</div><!-- /PRELOADER -->
-
-
-	<!-- JAVASCRIPT FILES -->
-	<script>var plugin_path = 'assets/plugins/';</script>
-	<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
-
-	<script src="assets/js/scripts.js"></script>
-
-
-	<!-- REVOLUTION SLIDER -->
-	<script src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
-	<script src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="assets/js/view/demo.revolution_slider.js"></script>
-
-	<!-- PAGELEVEL SCRIPTS -->
-	<script src="assets/js/contact.js"></script>
-
-
+	
 </body>
 
 </html>

@@ -11,20 +11,26 @@
  * It is generally better to create a new file per style scope.
  *
  */
-@import "bootstrap-sprockets";
+//@import "bootstrap-sprockets";
 @import "bootstrap";
-@import "font-awesome-sprockets";
-@import "font-awesome";
-@import "bootstrap-social";
-@import "pages";
-//@import "custom-forms-v2";
-@import "custom";
-@import "demo-menu-blue";
-@import "essentials.css";
-@import "yellow.css";
+@import "extralayers";
+@import "settings";
+@import "essentials";
+@import "layout";
 @import "header-1";
-//@import "header-2";
-//@import "header-3";
+@import "yellow";
+@import "custom";
+
+// @import "font-awesome-sprockets";
+// @import "font-awesome";
+// @import "bootstrap-social";
+// @import "pages";
+// @import "demo-menu-blue";
+// @import "blue";
+
+
+
+//@import "custom-forms-v2";
 //@import "header-4";
 //@import "header-5";
 //@import "header-6";
@@ -34,7 +40,6 @@
 // @import "layout-jqgrid";
 // @import "layout-RTL";
 // @import "layout-shop";
-//@import "layout";
 // @import "pack-realestate";
 // @import "pages 2";
 // @import "pages";
