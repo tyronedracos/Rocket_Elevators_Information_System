@@ -11,24 +11,17 @@
 // about supported directives.
 //
 //
-//= require_all javascriptlist
-//= require owl.carousel
 //= require rails-ujs
 //= require activestorage
 //= require jquery
-//= require jquery_ujs
-//= require jquery-ui
-//= require bootstrap-sprockets
+//= require plugins/jquery/jquery-3.3.1.min
+//= require javascriptlist/scripts
+//= require plugins/slider.revolution/js/jquery.themepunch.tools.min
+//= require plugins/slider.revolution/js/jquery.themepunch.revolution.min
+//= require javascriptlist/demo.revolution_slider
+//= require javascriptlist/contact
 
-//= require turbolinks
-//= require_tree .
-//= cable 2
-//= contact
-//= demo.camera_slider
-//= demo.elastic_slider
-//= demo.graphs.flot
-//= script
-
+//= require owl.carousel
 
 
 
