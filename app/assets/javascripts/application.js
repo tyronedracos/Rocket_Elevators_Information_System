@@ -20,7 +20,7 @@
 //= require plugins/slider.revolution/js/jquery.themepunch.revolution.min
 //= require javascriptlist/demo.revolution_slider
 //= require javascriptlist/contact
-
+//= require plugins/bootstrap/js/bootstrap.min.js
 //= require owl.carousel
 
 
