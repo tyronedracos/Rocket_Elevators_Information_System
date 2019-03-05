@@ -20,3 +20,10 @@
 //= require bootstrap-sprockets
 //= require turbolinks
 //= require_tree .
+//= cable 2
+//= contact
+//= demo.camera_slider
+//= demo.elastic_slider
+//= demo.graphs.flot
+//= require_all javascriptlist 
+
