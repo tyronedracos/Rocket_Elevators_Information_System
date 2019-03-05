@@ -12,12 +12,14 @@
 //
 //
 //= require_all javascriptlist
+//= require owl.carousel
 //= require rails-ujs
 //= require activestorage
 //= require jquery
 //= require jquery_ujs
 //= require jquery-ui
 //= require bootstrap-sprockets
+
 //= require turbolinks
 //= require_tree .
 //= cable 2
@@ -25,5 +27,8 @@
 //= demo.camera_slider
 //= demo.elastic_slider
 //= demo.graphs.flot
-//= require_all javascriptlist 
+//= script
+
+
+
 

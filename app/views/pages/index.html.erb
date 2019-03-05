@@ -329,7 +329,7 @@
 
 
 		<!-- Parallax -->
-		<section class="parallax parallax-1" style="background-image: url('assets/image1/para.jpg');">
+		<section class="parallax parallax-1" style="background-image: url('assets/para.jpg');">
 			<div class="overlay dark-0">
 				<!-- dark overlay [1 to 9 opacity] -->
 			</div>
@@ -862,7 +862,8 @@
 				<div class="owl-carousel text-center owl-testimonial m-0" data-plugin-options='{"singleItem": true, "autoPlay": 3500, "navigation": false, "pagination": true, "transitionStyle":"fade"}'>
 					<div class="testimonial1">
 						<figure>
-							<img class="rounded" src="assets/image1/felixantoine.png" alt="ceo" />
+							<%# <img class="rounded" src="assets/image1/felixantoine.png" alt="ceo" /> %>
+							<%= image_tag("felixantoine.jpg", :alt => "ceo", :class => "rounded") %>
 						</figure>
 						<div class="testimonial-content p-0">
 							<p class="lead" style="color:#aaaaaa"><em>Félix-Antoine Paradis is the President, CEO and sole owner of Rocket
@@ -878,7 +879,9 @@
 					</div>
 					<div class="testimonial1">
 						<figure>
-							<img class="rounded" src="assets/image1/ceo1.jpg" alt="samuel" />
+							<%# <img class="rounded" src="assets/image1/ceo1.jpg" alt="samuel" /> %>
+							<%= image_tag("ceo1.jpg", :alt => "samuel", :class => "rounded") %>
+
 						</figure>
 						<div class="testimonial-content p-0">
 							<p class="lead" style="color:#aaaaaa"><em>The model employee of january month is Samuel Asselin. Samuel
@@ -946,7 +949,8 @@
 
 					<div class="img-hover">
 						<a target='New' href="https://fox11online.com/news/local/downtown-appleton-elevators-shut-down-in-yellow-ramp">
-							<img class="img-fluid" src="assets/image1/new2.jpg" alt="newimage">
+							<%# <img class="img-fluid" src="assets/image1/new2.jpg" alt="newimage"> %>
+							<%= image_tag("new2.jpg", :alt => "newimage", :class => "img-fluid") %>
 						</a>
 
 						<h4 class="text-left mt-20"><a target='New' href="https://fox11online.com/news/local/downtown-appleton-elevators-shut-down-in-yellow-ramp">Downtown
@@ -976,7 +980,8 @@
 					</div>
 					<div class="img-hover">
 						<a target='New' href="https://pamplinmedia.com/pt/9-news/417563-320116-trimets-plan-19-fixed-up-elevators-at-22-million-cost">
-							<img class="img-fluid" src="assets/image1/new3.jpg" alt="newimage">
+							<%# <img class="img-fluid" src="assets/image1/new3.jpg" alt="newimage"> %>
+							<%= image_tag("new3.jpg", :alt => "newimage", :class => "img-fluid") %>
 						</a>
 
 						<h4 class="text-left mt-20"><a target='New' href="https://pamplinmedia.com/pt/9-news/417563-320116-trimets-plan-19-fixed-up-elevators-at-22-million-cost">TriMet's
@@ -1002,7 +1007,9 @@
 					</div>
 					<div class="img-hover">
 						<a target='New' href="https://fox11online.com/news/local/fires-damage-downtown-appleton-parking-ramp-elevators">
-							<img class="img-fluid" src="assets/image1/new4.jpg" alt="newimage">
+							<%# <img class="img-fluid" src="assets/image1/new4.jpg" alt="newimage"> %>
+							<%= image_tag("new4.jpg", :alt => "newimage", :class => "img-fluid") %>
+							
 						</a>
 
 						<h4 class="text-left mt-20"><a target='New' href="https://fox11online.com/news/local/fires-damage-downtown-appleton-parking-ramp-elevators">Fires
@@ -1027,7 +1034,8 @@
 					</div>
 					<div class="img-hover">
 						<a target='New' href="https://www.nbcdfw.com/news/local/JPS-Hospital-Employee-Hurt-in-Elevator-Accident-504673841.html">
-							<img class="img-fluid" src="assets/image1/new5.jpg" alt="newimage">
+							<%# <img class="img-fluid" src="assets/image1/new5.jpg" alt="newimage"> %>
+							<%= image_tag("new5.jpg", :alt => "newimage", :class => "img-fluid") %>
 						</a>
 						<h4 class="text-left mt-20"><a target='New' href="https://www.nbcdfw.com/news/local/JPS-Hospital-Employee-Hurt-in-Elevator-Accident-504673841.html">John
 								Peter Smith Hospital Employee Hurt in Elevator Accident</a></h4>
@@ -1053,7 +1061,8 @@
 					</div>
 					<div class="img-hover">
 						<a target='New' href="https://journalbitcoin.com/elevators-and-escalators-market-2018-precise-outlook-schindler-thyssenkrupp-mitsubishi-kone-elevator-fujitec-omega/">
-							<img class="img-fluid" src="assets/image1/new6.jpg" alt="newimage">
+							<%# <img class="img-fluid" src="assets/image1/new6.jpg" alt="newimage"> %>
+							<%= image_tag("new6.jpg", :alt => "newimage", :class => "img-fluid") %>
 						</a>
 						<h4 class="text-left mt-20"><a target='New' href="https://journalbitcoin.com/elevators-and-escalators-market-2018-precise-outlook-schindler-thyssenkrupp-mitsubishi-kone-elevator-fujitec-omega/">Elevators
 								And Escalators Market 2018 </a></h4>
@@ -1390,7 +1399,7 @@
 	
 
 	</div>
-	
+	<script>var plugin_path = ‘assets/plugins/’;</script>
 </body>
 
 </html>
