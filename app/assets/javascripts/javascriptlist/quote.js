@@ -1,6 +1,3 @@
-
-
-
 //Tableau pour residentiel corporate hybrid commercial hide/show debut //
 
 $(document).ready(function () {
@@ -10,14 +7,6 @@ $(document).ready(function () {
 	$("#sub2").hide();
 	$("#sub3").hide();
 	$("#sub4").hide();
-	$("#radio1").hide();
-	$("#radio2").hide();
-	$("#radio3").hide();
-	$("#radio4").hide();
-	$("#total1").hide();
-	$("#total2").hide();
-	$("#total3").hide();
-	$("#total4").hide();
 
 	$('#select_department').change(function () {
 
@@ -25,65 +14,167 @@ $(document).ready(function () {
 
 		if ($('#select_department').val() == "Residential") {
 			$('#sub1').show(100);
-			$('#radio1').show(100);
-			$('#total1').show(100);
-			
+
 		}
 
 		else {
 			$("#sub1").hide();
-			$("#radio1").hide();
-			$("#total1").hide();
-			
 		}
 
 		if ($('#select_department').val() == "Commercial") {
 			$('#sub2').show(100);
-			$('#radio2').show(100);
-			$('#total2').show(100);
 
 		}
 
 		else {
 			$("#sub2").hide();
-			$("#radio2").hide();
-			$("#total2").hide();
 
 		}
 
 		if ($('#select_department').val() == "Corporate") {
 			$('#sub3').show(100);
-			$('#radio3').show(100);
-			$('#total3').show(100);
 
 		}
 
 		else {
 			$("#sub3").hide();
-			$("#radio3").hide();
-			$("#total3").hide();
 
 		}
 		if ($('#select_department').val() == "Hybrid") {
 			$('#sub4').show(100);
-			$('#radio4').show(100);
-			$('#total4').show(100);
 
 		}
 
 		else {
 			$("#sub4").hide();
+
+		}
+
+
+	});
+
+
+
+});
+
+//Tableau pour residentiel corporate hybrid commercial hide/show fin //
+
+//bouton radio pour residentiel corporate hybrid commercial hide/show debut //
+
+$(document).ready(function () {
+	console.log("ready!");
+
+	$("#radio1").hide();
+	$("#radio2").hide();
+	$("#radio3").hide();
+	$("#radio4").hide();
+
+	$('#select_department').change(function () {
+
+
+
+		if ($('#select_department').val() == "Residential") {
+			$('#radio1').show(500);
+
+		}
+
+		else {
+			$("#radio1").hide();
+		}
+
+		if ($('#select_department').val() == "Corporate") {
+			$('#radio2').show(500);
+		}
+
+		else {
+			$("#radio2").hide();
+
+		}
+		if ($('#select_department').val() == "Hybrid") {
+			$('#radio3').show(500);
+
+		}
+
+		else {
+			$("#radio3").hide();
+
+		}
+		if ($('#select_department').val() == "Commercial") {
+			$('#radio4').show(500);
+
+		}
+
+		else {
 			$("#radio4").hide();
+
+		}
+
+	});
+
+
+
+});
+//bouton radio pour residentiel corporate hybrid commercial hide/show fin //
+
+//totale pour residentiel corporate hybrid commercial hide/show debut //
+
+$(document).ready(function () {
+
+
+	$("#total1").hide();
+	$("#total2").hide();
+	$("#total3").hide();
+	$("#total4").hide();
+
+	$('#select_department').change(function () {
+
+		if ($('#select_department').val() == "Residential") {
+			$('#total1').show(500);
+
+
+		}
+
+		else {
+			$("#total1").hide();
+			
+
+
+		}
+
+		 if ($('#select_department').val() == "Corporate") {
+			$('#total2').show(500);
+
+		}
+
+		else {
+			$("#total2").hide();
+
+		}
+
+		if ($('#select_department').val() == "Hybrid") {
+			$('#total3').show(500);
+
+		}
+
+		else {
+			$("#total3").hide();
+
+		}
+
+		if ($('#select_department').val() == "Commercial") {
+			$('#total4').show(500);
+
+		}
+
+		else {
 			$("#total4").hide();
+
 
 		}
 
 	});
 
 });
-
-
-
 
 
 
@@ -409,7 +500,6 @@ function commercial() {
 }
 
  //formulaire commercial fin
-
 
 
 

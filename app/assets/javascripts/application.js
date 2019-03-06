@@ -26,7 +26,7 @@
 //= require plugins/owl-carousel/owl.carousel.min
 //= require owl.carousel
 //= require plugins/jquery.nav.min
-//= require plugins/form.validate/jquery.form.min
-//= require plugins/form.validate/jquery.validation.min
+//= require plugins/form.validate/jquery.form.min.js
+//= require plugins/form.validate/jquery.validation.min.js
 
 
