@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get 'corporate' => 'pages#corporate'
   get 'quote' => 'pages#quote'
   get 'thanks' => 'pages#thanks'
+  get 'login' => 'pages#login'
 
 end
