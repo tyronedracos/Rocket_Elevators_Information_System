@@ -52,9 +52,8 @@
     display:inline-block;
     background-color: rgba(0,0,0,.5);
     border-radius: 30%;
-    max-width: 300px;
-    max-height: 200px;
-    left: 39px;
+    width: auto;
+    height: auto;
     
 
   }
