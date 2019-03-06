@@ -13,148 +13,17 @@
 
 	<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />-->
 	<link href="https://fonts.google.com/specimen/Roboto" rel="stylesheet" type="text/css" />
-	<!-- CORE CSS -->
-	<link href="assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
-
-	<!-- THEME CSS -->
-	<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
-	<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
-
-	<!-- PAGE LEVEL SCRIPTS -->
-	<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
-	<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
-
-	<link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
+	
 </head>
 
-<!--
-		AVAILABLE BODY CLASSES:
-		
-		smoothscroll 			= create a browser smooth scroll
-		enable-animation		= enable WOW animations
-
-		bg-grey					= grey background
-		grain-grey				= grey grain background
-		grain-blue				= blue grain background
-		grain-green				= green grain background
-		grain-blue				= blue grain background
-		grain-orange			= orange grain background
-		grain-yellow			= yellow grain background
-		
-		boxed 					= boxed layout
-		pattern1 ... patern11	= pattern background
-		menu-vertical-hide		= hidden, open on click
-		
-		BACKGROUND IMAGE [together with .boxed class]
-		data-background="assets/images/_/boxed_background/1.jpg"
-	-->
-
 <body class="smoothscroll enable-animation">
-
-	<!-- SLIDE TOP -->
-	<div id="slidetop">
-
-		<div class="container">
-
-			<div class="row">
-
-				<div class="col-md-4">
-					<h6><i class="icon-heart"></i> A MESSAGE FROM OUR PRESIDENT</h6>
-					<p>We have chosen to live by 3 core values: Integrity, Service, and Quality, and these words are more than a
-						poster hanging in our office; each week we share stories of how these core values are being lived out by our
-						team. I am very proud that we are a top TSSA elevator contractor in America, and that we were nominated for “Best
-						Contractor in the World”. I am most pleased, however, by the comments we continually receive from our satisfied
-						customers, as attested by our 4.9/5.0 Google Review Score and Comments. I hope you decide to give Elevator One a
-						try. I am sure you won’t be disappointed.”</p>
-				</div>
-
-				<div class="col-md-4">
-					<h6><i class="fa-facheck"></i> WHY US ?</h6>
-					<ul class="list-unstyled">
-						<li><a href="#"><i class="fa fa-angle-right"></i> Professional technicians.</a></li>
-						<li><a href="#"><i class="fa fa-angle-right"></i> We design, evaluate and justify technology solutions.</a></li>
-						<li><a href="#"><i class="fa fa-angle-right"></i> Largest market share throughout Central America.</a></li>
-						<li><a href="#"><i class="fa fa-angle-right"></i> Because of our superior service.</a></li>
-						<li><a href="#"><i class="fa fa-angle-right"></i> Every Rocket home elevator includes warranty.</a></li>
-					</ul>
-				</div>
-
-				<div class="col-md-4">
-					<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
-					<ul class="list-unstyled">
-						<li><b>Address:</b> Québec, QC G2J 0C4<br />Boulevard Lebourgneuf,</li>
-						<li><b>Phone:</b> (418) 580-7055</li>
-						<li><b>Email:</b> <a href="rocketeleveator@codeboxx.biz">rocketeleveator@codeboxx.biz</a></li>
-					</ul>
-				</div>
-
-			</div>
-
-		</div>
-
-		<a class="slidetop-toggle" href="#">
-			<!-- toggle button --></a>
-
-	</div>
-	<!-- /SLIDE TOP -->
-
-
-
-
-	<!-- wrapper -->
+	
 	<div id="wrapper">
 
-		<!-- 
-				AVAILABLE HEADER CLASSES
-
-				Default nav height: 96px
-				.header-md 		= 70px nav height
-				.header-sm 		= 60px nav height
-
-				.b-0 		= remove bottom border (only with transparent use)
-				.transparent	= transparent header
-				.translucent	= translucent header
-				.sticky			= sticky header
-				.static			= static header
-				.dark			= dark header
-				.bottom			= header on bottom
-				
-				shadow-before-1 = shadow 1 header top
-				shadow-after-1 	= shadow 1 header bottom
-				shadow-before-2 = shadow 2 header top
-				shadow-after-2 	= shadow 2 header bottom
-				shadow-before-3 = shadow 3 header top
-				shadow-after-3 	= shadow 3 header bottom
-
-				.clearfix		= required for mobile menu, do not remove!
-
-				Example Usage:  class="clearfix sticky header-sm transparent b-0"
-			-->
 		<div id="header" class="navbar-toggleable-md sticky header-md clearfix">
-
-			
-
 
 		</div>
 
-
-		<!-- 
-				PAGE HEADER 
-				
-				CLASSES:
-					.page-header-xs	= 20px margins
-					.page-header-md	= 50px margins
-					.page-header-lg	= 80px margins
-					.page-header-xlg= 130px margins
-					.dark			= dark page header
-
-					.shadow-before-1 	= shadow 1 header top
-					.shadow-after-1 	= shadow 1 header bottom
-					.shadow-before-2 	= shadow 2 header top
-					.shadow-after-2 	= shadow 2 header bottom
-					.shadow-before-3 	= shadow 3 header top
-					.shadow-after-3 	= shadow 3 header bottom
-			-->
 		<section class="page-header">
 			<div class="container">
 
@@ -169,9 +38,6 @@
 			</div>
 		</section>
 		<!-- /PAGE HEADER -->
-
-
-
 
 		<!-- -->
 		<section>
@@ -194,16 +60,16 @@
 						<!-- OWL SLIDER -->
 						<div class="owl-carousel buttons-autohide controlls-over m-0" data-plugin-options='{"items": 1, "autoHeight": true, "navigation": true, "pagination": true, "transitionStyle":"backSlide", "progressBar":"true"}'>
 							<div>
-								<img class="img-fluid1" src="assets/image1/residential1.jpg" alt="residential">
+								<%= image_tag("residential1.jpg", :alt => "residential", :class => "img-fluid1") %>
 							</div>
 							<div>
-								<img class="img-fluid1" src="assets/image1/residential2.jpg" alt="residential">
+								<%= image_tag("residential2.jpg", :alt => "residential", :class => "img-fluid1") %>
 							</div>
 							<div>
-								<img class="img-fluid1" src="assets/image1/residential3.jpg" alt="residential">
+								<%= image_tag("residential3.jpg", :alt => "residential", :class => "img-fluid1") %>
 							</div>
 							<div>
-								<img class="img-fluid1" src="assets/image1/residential4.jpg" alt="residential">
+								<%= image_tag("residential4.jpg", :alt => "residential", :class => "img-fluid1") %>
 							</div>
 						</div>
 						<!-- /OWL SLIDER -->
@@ -235,14 +101,6 @@
 		</section>
 		<!-- / -->
 
-
-
-
-
-
-
-
-
 		<!-- -->
 		<section>
 			<div class="container">
@@ -263,13 +121,13 @@
 
 					<div class="tab-content">
 						<div id="tab1" class="tab-pane active">
-							<img class="float-left" src="assets/image1/residential5.jpg" width="350" alt="residential" />
+							<%= image_tag("residential5.jpg", :alt => "residential", :class => "float-left", :width=>"350") %>
 							<p>The Rocket Home Elevator has one of the smallest footprints of any residential lift available and takes up
 								less than 7sf. It can be placed at any angle and the remarkably small footprint means there are almost
 								limitless spaces where our lift can be installed.<p>
 						</div>
 						<div id="tab2" class="tab-pane fade">
-							<img class="float-right" src="assets/image1/residential6.jpg" width="350" alt="residential" />
+							<%= image_tag("residential6.jpg", :alt => "residential", :class => "float-right", :width=>"350") %>
 							<p>The Rocket Home Elevator uses a roped drum-braked gear motor drive system which is neatly contained within
 								the lift itself. All of the mechanics are in one place, hidden from view, situated at the top of the in-home
 								elevator.<p>
@@ -284,9 +142,6 @@
 			</div>
 		</section>
 		<!-- / -->
-
-
-
 
 		<!-- -->
 		<section>
@@ -306,14 +161,12 @@
 
 					<div class="col-md-6">
 						<h3 class="fs-20 text-center">What Rocket clients say?</h3>
-						<!-- 
-								Note: remove class="rounded" from the img for squared image!
-							-->
+					
 						<ul class="row clearfix testimonial-dotted list-unstyled">
 							<li class="col-md-6">
 								<div class="testimonial">
 									<figure class="float-left">
-										<img class="rounded" src="assets/image1/client1.jpg" alt="residential" />
+										<%= image_tag("client1.jpg", :alt => "residential", :class => "rounded") %>
 									</figure>
 									<div class="testimonial-content">
 										<p>I would recommend the Rocket Home Elevator to anyone – it has improved my quality of life immensely.</p><br><br>
@@ -327,13 +180,13 @@
 							<li class="col-md-6">
 								<div class="testimonial">
 									<figure class="float-left">
-										<img class="rounded" src="assets/image1/client2.jpg" alt="residential" />
+										<%= image_tag("client2.jpg", :alt => "residential", :class => "rounded") %>
 									</figure>
 									<div class="testimonial-content">
 										<p>My wife is in a wheelchair and the Rocket Home Elevator has given her back her independence. I would
 											recommend Rocket home to anyone.</p>
 										<cite>
-											Brett, 65
+											Martin, 65
 											<span></span>
 										</cite>
 									</div>
@@ -348,21 +201,6 @@
 		<!-- / -->
 
 
-
-
-		<!-- 
-			CALLOUT
-
-			FULLWIDTH: OUTSIDE OF <section> 
-
-				Available Classes:
-				alert-default
-				alert-info
-				alert-warning
-				alert-danger
-				alert-success
-				alert-dark
-			-->
 
 		<div class="callout alert alert-transparent b-0 rad-0 m-0 pt-60 pb-60 clearfix">
 
@@ -379,14 +217,6 @@
 
 		</div>
 		<!-- /CALLOUT -->
-
-
-		
-
-	
-    
-	<!-- /wrapper -->
-
 
 	<!-- SCROLL TO TOP -->
 	<a href="#" id="toTop"></a>

@@ -16,12 +16,17 @@
 //= require jquery
 //= require plugins/jquery/jquery-3.3.1.min
 //= require javascriptlist/scripts
+//= require javascriptlist/quote
 //= require plugins/slider.revolution/js/jquery.themepunch.tools.min
 //= require plugins/slider.revolution/js/jquery.themepunch.revolution.min
 //= require javascriptlist/demo.revolution_slider
 //= require javascriptlist/contact
-//= require plugins/bootstrap/js/bootstrap.min.js
+//= require plugins/bootstrap/js/bootstrap.min
+//= require plugins/smoothscroll
+//= require plugins/owl-carousel/owl.carousel.min
 //= require owl.carousel
-
+//= require plugins/jquery.nav.min
+//= require plugins/form.validate/jquery.form.min
+//= require plugins/form.validate/jquery.validation.min
 
 
