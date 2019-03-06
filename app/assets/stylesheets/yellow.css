@@ -302,10 +302,10 @@ section.dark .btn-default:hover {
 	}
 	div.divider.divider-color:before,
 	div.divider.divider-color:after {
-		border-top:#FAB702 1px solid;
+		border-top: rgb(177, 61, 26) 1px solid;
 	}
 	div.divider.divider-color i {
-		color:#FAB702;
+		color:rgb(177, 61, 26);
 	}
 	div.divider.divider-circle.divider-color i {
 		color:#fff;
