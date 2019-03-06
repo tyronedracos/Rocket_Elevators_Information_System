@@ -14,4 +14,7 @@ class PagesController < ApplicationController
     def thanks
     end
 
+    def login
+    end
+
 end
