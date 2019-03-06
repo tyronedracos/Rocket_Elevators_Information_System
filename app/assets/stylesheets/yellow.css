@@ -119,7 +119,7 @@
 	#progressBar #bar,								/* OWL */
 	#page-menu,
 	#page-menu ul {
-		background-color:rgba(187, 176, 173, 0.904);
+		background-color:rgb(177, 61, 26);
 	}
 	
 	/* !important required */
@@ -258,7 +258,7 @@
 		background-color:rgba(0,0,0,0.1);
 	}
 	section.theme-color div.heading-border-bottom.heading-color {
-	  border-bottom-color:rgba(255,255,255,0.5);
+	  border-bottom-color:rgb(177, 61, 26);
 	}
 
 
