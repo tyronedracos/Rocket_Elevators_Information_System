@@ -49,6 +49,13 @@ test:
 #
 production:
   <<: *default
+<<<<<<< HEAD
   database: RocketElevators_production
   username: RocketElevators
   password: <%= ENV['ROCKETELEVATORS_DATABASE_PASSWORD'] %>
+=======
+  database: myapp_production
+  username: myapp
+  # password: 5x2wozms
+  socket: /var/run/mysqld/mysqld.sock
+>>>>>>> 15405cdf879b28651752076bb44bc7b4870dbda3
