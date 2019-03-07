@@ -38,6 +38,12 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+gem 'capistrano', '~> 3.10', require: false
+gem 'capistrano-rails', '~> 1.4', require: false
+gem 'capistrano-bundler', '>= 1.1.0'
+gem 'rvm1-capistrano3', require: false
+gem 'capistrano3-puma'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -49,10 +55,12 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+gem 'listen', '>= 3.0.5', '< 3.2'
+
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
-  gem 'listen', '>= 3.0.5', '< 3.2'
+
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
