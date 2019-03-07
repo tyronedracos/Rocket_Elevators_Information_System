@@ -4,6 +4,9 @@ require "capistrano/setup"
 # Include default deployment tasks
 require "capistrano/deploy"
 
+if ENV['RUN_MIGRATIONS'].present?
+    require 'capistrano/rails/migrations'
+  end
 # Load the SCM plugin appropriate to your project:
 #
 # require "capistrano/scm/hg"
