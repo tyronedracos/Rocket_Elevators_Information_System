@@ -308,14 +308,3 @@ vertical-align: middle;
   margin-right: auto;
   width: 30%;
 }
-
-
-
-body {
-  -webkit-font-smoothing: antialiased;
-  margin: 0;
-  overflow: hidden;
-  color: white;
-  background: url(/assets/trestle/textures/bright-squares-b6bb282….png), linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05)) no-repeat, #5d5e61;
-  display: flex;
-}
