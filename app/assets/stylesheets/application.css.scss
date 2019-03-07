@@ -11,7 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  */
-//@import "bootstrap-sprockets";
+@import "bootstrap-sprockets";
 @import "bootstrap";
 @import "extralayers";
 @import "settings";
@@ -22,13 +22,10 @@
 @import "custom";
 @import "owl.carousel";
 @import "owl.pack";
-@import "green";
-
-
-
-// @import "font-awesome-sprockets";
-// @import "font-awesome";
-// @import "bootstrap-social";
+//@import "green";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "bootstrap-social";
 // @import "pages";
 // @import "demo-menu-blue";
 // @import "blue";
