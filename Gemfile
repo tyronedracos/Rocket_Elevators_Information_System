@@ -37,6 +37,12 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
+gem 'capistrano', '~> 3.10', require: false
+gem 'capistrano-rails', '~> 1.4', require: false
+gem 'capistrano-bundler', '>= 1.1.0'
+gem 'rvm1-capistrano3', require: false
+gem 'capistrano3-puma'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
