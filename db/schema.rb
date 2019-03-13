@@ -155,3 +155,6 @@ ActiveRecord::Schema.define(version: 2019_03_13_153902) do
   end
 
 end
+
+ActiveRecord::Base.establish_connection(config_options)
+
