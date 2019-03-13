@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'bootstrap-social-rails'
 gem 'trestle'
 gem 'trestle-auth'
+gem 'trestle-search'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
 # Use mysql as the database for Active Record

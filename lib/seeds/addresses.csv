@@ -1,0 +1,4 @@
+id,address_type,status,entity,street_number_name,apartment_number,city,state_province,zip_code,country,created_at,updated_at
+1,Billing,Active,Customer,7639 Toban Plaza,,Greensboro,North Carolina,27499,United States,2016-03-28 20:51:49,2018-05-17 23:31:03
+2,Billing,Active,Building,4808 John Wall Court,,Fresno,California,93726,United States,2016-06-02 19:34:57,2019-02-27 23:41:20
+3,Billing,Active,Customer,60 Coleman Center,,Hampton,Virginia,23668,United States,2017-05-08 13:15:24,2017-08-04 05:36:28

@@ -1,0 +1,51 @@
+id,building_id,information_key,value,created_at,updated_at
+1,,n/a,Yuan Renminbi,9/25/2016,9/3/2018
+2,,Consumer Services,Ruble,9/2/2016,1/14/2018
+3,,n/a,Baht,11/23/2016,3/3/2018
+4,,Technology,Sol,6/13/2016,9/18/2018
+5,,n/a,Yuan Renminbi,8/20/2016,11/6/2017
+6,,n/a,Rupiah,4/7/2016,1/17/2018
+7,,Public Utilities,Dollar,10/14/2016,7/17/2018
+8,,Health Care,Yuan Renminbi,8/23/2016,11/19/2017
+9,,n/a,Koruna,8/18/2016,6/17/2017
+10,,Capital Goods,Rupiah,6/1/2016,12/6/2018
+11,,Capital Goods,Krona,11/8/2016,10/26/2018
+12,,Health Care,Peso,4/24/2016,9/4/2017
+13,,n/a,Real,1/6/2017,12/31/2018
+14,,Public Utilities,Peso,1/26/2017,9/15/2018
+15,,n/a,Zloty,5/12/2017,1/5/2019
+16,,Capital Goods,Pound,4/29/2017,5/29/2018
+17,,Public Utilities,Baht,6/8/2017,9/30/2017
+18,,Miscellaneous,Hryvnia,6/23/2016,1/19/2019
+19,,Miscellaneous,Yuan Renminbi,7/24/2016,11/22/2018
+20,,Consumer Services,Ruble,4/29/2016,4/27/2018
+21,,Consumer Services,Rupiah,12/31/2016,10/10/2018
+22,,Consumer Non-Durables,Euro,6/6/2017,1/6/2018
+23,,Finance,Yuan Renminbi,7/14/2016,10/9/2017
+24,,Public Utilities,Rupiah,6/16/2016,7/27/2017
+25,,n/a,Euro,3/22/2016,6/18/2018
+26,,Consumer Services,Tenge,10/6/2016,12/26/2017
+27,,Finance,Yuan Renminbi,7/2/2016,5/26/2018
+28,,Finance,Krona,4/12/2016,10/6/2018
+29,,n/a,Naira,4/21/2017,7/9/2018
+30,,Basic Industries,Naira,8/8/2016,9/14/2017
+31,,n/a,Hryvnia,8/2/2016,12/5/2017
+32,,n/a,Yuan Renminbi,3/31/2016,5/31/2018
+33,,Public Utilities,Euro,10/20/2016,7/8/2017
+34,,n/a,Pound,3/30/2016,7/10/2018
+35,,Finance,Krona,5/14/2016,2/12/2019
+36,,Public Utilities,Peso,5/19/2017,10/12/2018
+37,,Miscellaneous,Yuan Renminbi,1/11/2017,10/25/2018
+38,,Finance,Yen,5/1/2016,6/18/2018
+39,,Consumer Services,Lek,3/21/2017,11/12/2018
+40,,Consumer Services,Dollar,4/1/2017,8/4/2017
+41,,Miscellaneous,Yuan Renminbi,7/21/2016,3/5/2019
+42,,n/a,Rupiah,9/15/2016,8/17/2017
+43,,Public Utilities,Peso,3/21/2016,4/8/2018
+44,,n/a,Zloty,6/10/2016,8/14/2018
+45,,Finance,Lev,3/28/2017,9/8/2018
+46,,Finance,Franc,5/29/2017,10/16/2017
+47,,Finance,Franc,11/3/2016,6/24/2017
+48,,Technology,Dinar,9/2/2016,8/13/2017
+49,,Energy,Franc,10/13/2016,5/1/2018
+50,,n/a,Euro,6/14/2016,7/8/2017

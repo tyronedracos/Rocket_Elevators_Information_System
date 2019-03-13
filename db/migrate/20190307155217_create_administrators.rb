@@ -7,8 +7,10 @@ class CreateAdministrators < ActiveRecord::Migration[5.2]
       t.string :last_name
       t.string :remember_token
       t.datetime :remember_token_expires_at
+      t.string :title
 
       t.timestamps
     end
   end
 end
+

@@ -1,0 +1,4 @@
+id,customer_id,building_adress,building_administrator_full_name,building_administrator_email,building_administrator_phone,building_technical_contact_name,building_technical_contact_email,building_technical_contact_phone,created_at,updated_at
+1,1,0 Mayer Plaza,Lief Lefeaver,jsizzey0@canalblog.com,310-518-5164,Jan Sizzey,jsizzey0@sbwire.com,644-659-9804,2017-01-28 21:07:21,2017-09-02 04:41:35
+2,2,6 Stoughton Alley,Dunstan McCloughlin,bstanley1@posterous.com,256-512-8100,Bibi Stanley,bstanley1@shop-pro.jp,868-907-3811,2017-04-13 06:52:46,2017-10-16 01:17:43
+3,3,15790 Clemons Junction,Evanne Mote,hthurlbeck2@bloglines.com,358-613-6682,Hiram Thurlbeck,hthurlbeck2@comcast.net,138-558-5717,2016-12-23 05:48:38,2017-12-26 16:16:15

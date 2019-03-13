@@ -4,8 +4,9 @@ Rails.application.routes.draw do
   get 'index' => 'pages#index'
   get 'residential' => 'pages#residential'
   get 'corporate' => 'pages#corporate'
-  get 'quote' => 'pages#quote'
+  get 'quote' => 'quotes#new'
   get 'thanks' => 'pages#thanks'
-  get 'login' => 'pages#login'
-
+  get 'careers' => 'pages#careers'
+  
+  resources :quotes
 end

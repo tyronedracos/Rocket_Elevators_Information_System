@@ -1,0 +1,4 @@
+id,battery_id,column_type,floor_number,status,information,notes,created_at,updated_at
+1,1,residential,100,Active,Object-based 3rd generation Graphical User Interface,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",2016-03-28 08:26:33,2017-07-03 21:43:21
+2,2,corporate,97,Active,Re-contextualized client-driven success,Donec ut mauris eget massa tempor convallis.,2016-07-13 09:41:49,2017-08-24 01:06:13
+3,3,commercial,31,Active,Extended upward-trending matrices,Integer a nibh.,2017-05-20 15:47:19,2017-06-26 06:10:10

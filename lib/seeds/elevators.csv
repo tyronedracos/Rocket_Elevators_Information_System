@@ -1,0 +1,4 @@
+id,column_id,serial_number,elevator_class,elevator_type,status,date_of_commissioning,date_of_last_inspection,inspection_certificate,information,notes,created_at,updated_at
+1,1,KZ49 163K RAC5 O8Y2 EQRC,excelium,residential,Active,2016-06-25 09:32:51,2018-09-04 06:33:04,051356753-4,Persistent asynchronous neural-net,Aliquam sit amet diam in magna bibendum imperdiet.,2016-07-17 05:44:04,2017-06-17 21:46:50
+2,2,LV30 YCJC IGUG GIQJ F8XX J,standard,corporate,Active,2016-06-01 22:11:48,2018-09-02 01:12:14,379585066-5,De-engineered 24/7 forecast,Vestibulum ac est lacinia nisi venenatis tristique.,2017-04-21 03:17:33,2018-05-05 03:08:43
+3,3,LV03 QIIL UXPJ CK7V MLRI S,premium,commercial,Active,2017-09-09 03:32:28,2018-06-20 12:21:20,888366045-5,Focused maximized encoding,Suspendisse potenti.,2016-12-20 17:49:34,2018-07-31 14:52:07

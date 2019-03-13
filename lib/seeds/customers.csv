@@ -1,0 +1,4 @@
+id,user_id,company_name,company_address,full_name,phone,email,company_description,full_name_of_service_technical,phone_of_service_technical,email_of_service_technical,created_at,updated_at
+1,1,Ryan-Lowe,5 Meadow Vale Trail,Walt Hannis,,vattack0@github.io,mesh front-end metrics,Vikki Attack,369-969-3251,vattack0@myspace.com,2016-12-19 10:19:51,2018-04-12 14:34:37
+2,2,"Pfannerstill, Hintz and Spinka",4 Dwight Parkway,Werner Haskur,,avoff1@github.com,generate holistic partnerships,Archibald Voff,183-160-2995,avoff1@themeforest.net,2016-07-10 02:05:23,2017-10-14 05:45:22
+3,3,Christiansen-Homenick,1 Knutson Crossing,Tris Duley,,dlusgdin2@bloglines.com,utilize efficient synergies,Daffie Lusgdin,216-755-6176,dlusgdin2@deviantart.com,2017-01-10 08:39:19,2018-04-09 00:10:35

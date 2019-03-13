@@ -10,7 +10,7 @@
 
 	TABLE CONTENTS
 	-------------------------------
-
+ 
 
 	INLINE SCRIPTS
 	-------------------------------
@@ -40,7 +40,7 @@
 	window.width 	= jQuery(window).width();
 	window.height 	= jQuery(window).height();
 
-
+	plugin_path:"/assets/plugins/";
 	/* Init */
 	jQuery(window).ready(function () {
 

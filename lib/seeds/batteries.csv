@@ -1,0 +1,4 @@
+id,building_id,battery_type,status,employee_id,date_of_commissioning,operations_certificate,last_inspection_date,information,notes,created_at,updated_at
+1,1,residential,Active,1,8/11/2017,55714-1709,9/30/2018,Progressive full-range solution,Aenean fermentum.,4/1/2016,1/18/2019
+2,2,corporate,Active,2,3/13/2017,0409-3400,7/30/2018,Customer-focused system-worthy framework,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.,5/26/2016,9/22/2018
+3,3,commercial,Active,3,4/5/2016,0378-1101,3/1/2019,Self-enabling global conglomeration,Nulla ut erat id mauris vulputate elementum.,6/12/2017,7/27/2017
